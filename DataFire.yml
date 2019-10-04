@@ -1,2 +1,6 @@
 options:
   cors: true
+actions:
+  xxx: ./actions/xxx.js
+tasks: {}
+paths: {}
