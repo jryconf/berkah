@@ -14,3 +14,8 @@ paths:
 tests:
   test:
     action: xxx
+  test1:
+    action: xxx
+    input:
+      xx: dd
+      nam: ee

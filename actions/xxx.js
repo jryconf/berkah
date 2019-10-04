@@ -1,6 +1,7 @@
 "use strict";
 let datafire = require('datafire');
 
+let myActions = datafire.Project.main().actions;
 module.exports = new datafire.Action({
   description: "xxx",
   inputs: [{
@@ -10,7 +11,7 @@ module.exports = new datafire.Action({
     maxLength: 6
   }, {
     type: "string",
-    title: "input2"
+    title: "xx"
   }],
   handler: async (input, context) => {
     let result = await Promise.resolve();
