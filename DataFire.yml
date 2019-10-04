@@ -2,5 +2,15 @@ options:
   cors: true
 actions:
   xxx: ./actions/xxx.js
-tasks: {}
-paths: {}
+tasks:
+  task:
+    action: xxx
+    schedule: rate(1 day)
+    input: {}
+paths:
+  /xxx:
+    get:
+      action: xxx
+tests:
+  test:
+    action: xxx
